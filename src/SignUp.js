@@ -23,7 +23,7 @@ export function SignUp() {
     };
     console.log(newUser);
 
-    fetch(`https://6166c4e413aa1d00170a6711.mockapi.io/movies`, {method: "POST",
+    fetch(`https://stack-overflow-be-api.herokuapp.com/`, {method: "POST",
 
             body:JSON.stringify(newUser),
             headers: {
